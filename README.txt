@@ -3,9 +3,9 @@ singleCell analysis pipeline for medical University of Vienna (version 1.0)
 
 Installation:
 
-    git clone https://github.com/snizam001/singlePipe.git
-    cd singlePipe
-    pip install ./
+        git clone https://github.com/snizam001/singlePipe.git
+        cd singlePipe
+        pip install ./
     
 Usage:
 
@@ -77,9 +77,9 @@ Usage:
 
 Example:
 
-    Download the example dataset from https://jeffgranja.s3.amazonaws.com/MPAL-10x/Supplementary_Data/Healthy-Data/scRNA-Healthy-Hematopoiesis-191120.rds of Granja et al. (Nat. Biotech 2019; Pubmed central ID = PMC7258684) and use following command:
-    
-    singlePipe --modes qc,norm,featureSelectDimentionReduction,clustering,diffExprGenes,annoT --outputdir ~/Desktop/ViennaAssignment/out --inputDataType rds --threads 20 --inputData /home/sheikh/Desktop/ViennaAssignment/data/scRNA-Healthy-Hematopoiesis-191120.rds 
+        Download the example dataset from https://jeffgranja.s3.amazonaws.com/MPAL-10x/Supplementary_Data/Healthy-Data/scRNA-Healthy-Hematopoiesis-191120.rds of Granja et al. (Nat. Biotech 2019; Pubmed central ID = PMC7258684) and use following command:
+
+        singlePipe --modes qc,norm,featureSelectDimentionReduction,clustering,diffExprGenes,annoT,ExpressionPlot --outputdir ~/Desktop/ViennaAssignment/out --inputDataType rds --threads 20 --inputData /home/sheikh/Desktop/ViennaAssignment/data/scRNA-Healthy-Hematopoiesis-191120.rds --ExpressionPlotGenes CD3D,CD14,CD19,CD8A,CEBPB,GATA1,TBX21,PAX5
     
     
     
