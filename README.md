@@ -114,10 +114,10 @@ Example:
 
         singlePipe 
         --modes qc,norm,featureSelectDimentionReduction,clustering,diffExprGenes,annoT,ExpressionPlot \
-        --outputdir ~/Desktop/ViennaAssignment/out \
+        --outputdir ~/Desktop/out \
         --inputDataType rds \
         --threads 20 \
-        --inputData /home/sheikh/Desktop/ViennaAssignment/data/scRNA-Healthy-Hematopoiesis-191120.rds \
+        --inputData /home/sheikh/Desktop/data/scRNA-Healthy-Hematopoiesis-191120.rds \
         --ExpressionPlotGenes CD3D,CD14,CD19,CD8A,CEBPB,GATA1,TBX21,PAX5
     
     
